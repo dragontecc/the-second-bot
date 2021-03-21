@@ -4,7 +4,7 @@
 const { Client, Collection, Guild } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { prefix, token } = require("./config.json");
+const { prefix, token, apiyoutube } = require("./config.json");
 let PREFIX = prefix
 const Playing = require("discord-playing");
 const client = new Client({ disableMentions: "everyone" });
@@ -93,7 +93,7 @@ client.on("message", async (message) => {
 // Buat music
 const bot12 = new MusicBot({
   botPrefix: prefix , // Example: !
-  ytApiKey: 'AIzaSyBpeh-kp2OZJ7XDzLHzOnYt03Fxajtd5TI', // Video to explain how to get it: https://www.youtube.com/watch?v=VqML5F8hcRQ
+  ytApiKey: apiyoutube, // Video to explain how to get it: https://www.youtube.com/watch?v=VqML5F8hcRQ
   botClient: client // Your Discord client. Here we're using discord.js so it's the Discord.Client()
 });
 
