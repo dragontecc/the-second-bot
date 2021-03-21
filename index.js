@@ -97,23 +97,7 @@ const bot12 = new MusicBot({
   botClient: client // Your Discord client. Here we're using discord.js so it's the Discord.Client()
 });
 
-client.on('message', message => {
-  if(message.author.bot) return; 
-  // When the bot receive a message
-  if(message.content.startsWith(bot12.prefix)) { // If the message starts with your prefix
-  } 
- {
-  if(message.content === 'no u') 
-    message.channel.send(`Mantap ${message.author} jago bet dah, sampe kalah gw nih :pensive: `)
-    console.log(
-      `${message.author.username} said ${message.content} at ${message.createdAt} on ${message.guild.name} at ${message.guild.embedChannelID}`
-    );
- if(message.content === 'gip alok')
-    message.channel.send(`Hmm, alok ya? Maaf nih ${message.author}, gw gajualan alok.. Mungkin di toko sebelah ada`)
-    }
-    {
-      bot12.onMessage(message); // The music-system must read the message, to check if it is a music command and execute it.
-    }})
+
 
 
 // Buat Welcome
