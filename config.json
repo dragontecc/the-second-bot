@@ -1,0 +1,10 @@
+{
+    "prefix": "+",
+    "token" : "",
+    "bot-age" : 1,
+    "words_array" : ["Pog"],
+    "bot_info" : {
+        "name" : "Proto-Bot",
+        "version" : "0.1.0"
+    }
+}
