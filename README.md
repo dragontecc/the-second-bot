@@ -8,6 +8,7 @@ Steps to do after downloading this bot :
 - Open CMD
 - Type npm install
 - Then, open notepad and enter the bot token that you got from Discord Developer Portal in the config.json file.
+- To activate the youtube function, please enter the API KEY in config.json. How to get the API key? https://www.youtube.com/watch?v=VqML5F8hcRQ
 - Then, after the installation proccess has been done. To start the bot, all you need to do is do this command : node index.js
 
 Special Thanks To :
