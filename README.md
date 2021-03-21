@@ -1,5 +1,5 @@
 # the-second-bot
-Discord.js bot that mainly used as a Poll, Giveaway, play music.
+Discord.js bot that mainly used as a Poll, Giveaway, play music, Minecraft Server Pinger
 
 Steps to do after downloading this bot :
 - Download Node.js from nodejs.org
