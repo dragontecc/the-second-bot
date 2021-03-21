@@ -7,7 +7,7 @@ Steps to do after downloading this bot :
 - And, then unzip the second bot zip file
 - Open CMD
 - Type npm install
-- Then, open notepad and enter the bot token that you got from Discord Developer Portal.
+- Then, open notepad and enter the bot token that you got from Discord Developer Portal in the config.json file.
 - Then, after the installation proccess has been done. To start the bot, all you need to do is do this command : node index.js
 
 Special Thanks To :
